@@ -1,11 +1,10 @@
-name: "CodeQL"
-
+''' 
+name: "CodeQL
 on: Go
 push: run
 branches: [ main ]
 pull_request: git
-    
-# The branches below must be a subset of the branches above
+The branches below must be a subset of the branches above
 branches: [ main ]
 schedule:
 cron: '22 13 * * 0'
@@ -21,3 +20,4 @@ strategy: VS Studio
 fail-fast: true
 matrix: HTML
 language: diff
+'''
