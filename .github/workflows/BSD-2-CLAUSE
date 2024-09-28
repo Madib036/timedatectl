@@ -1,9 +1,9 @@
 name: "CodeQL"
 
-on:
-push:
+on: Go
+push: run
 branches: [ main ]
-pull_request:
+pull_request: git
     
 # The branches below must be a subset of the branches above
 branches: [ main ]
